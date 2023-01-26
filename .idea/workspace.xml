@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ab7b861-bebe-43c6-a2bc-d0066e3fc69e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bionotes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
+    <list default="true" id="1ab7b861-bebe-43c6-a2bc-d0066e3fc69e" name="Changes" comment="Tested and Included Exception handling.">
+      <change afterPath="$PROJECT_DIR$/123" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project1/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project1/Services.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project1/Services.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +40,8 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/PC/Projects/Java_1"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -54,9 +53,19 @@
       <option name="presentableId" value="Default" />
       <updated>1674684010010</updated>
     </task>
+    <task id="LOCAL-00001" summary="Tested and Included Exception handling.">
+      <created>1674691743229</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674691743230</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Tested and Included Exception handling." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tested and Included Exception handling." />
   </component>
 </project>

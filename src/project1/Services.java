@@ -6,33 +6,39 @@ import java.io.IOException;
 
 public class Services
 
+
 {
 
-    static String path = System.getProperty("user.dir");
-    static File folder = new File(path);
-    static String[] files = folder.list();
 
     public static void listAllfiles ()
     {
+        String path = System.getProperty("user.dir");
+        File folder = new File(path);
+        String[] files;
+        files = folder.list();
 
-        for (String file : files) {
-
-            File temp = new File(file);
-
-            if (temp.isFile()){
-                System.out.println(file);
-            }
-        }
-
-        if ( files.length ==0 )
-
+        if (files != null)
         {
+
+            for (String file : files) {
+
+                File temp = new File(file);
+
+                if (temp.isFile()){
+                    System.out.println(file);
+                }
+            }
+
+        }else {
             System.out.println("Current directory is empty.");
         }
+
     }
 
     public static void addfile (String filename) throws IOException
     {
+        String path = System.getProperty("user.dir");
+
         File file = new File( path , filename);
 
         if (file.exists()) {
@@ -48,8 +54,9 @@ public class Services
         }
     }
 
-    public static void deletefile (String filename) {
-
+    public static void deletefile (String filename)
+    {
+        String path = System.getProperty("user.dir");
         File file = new File(path, filename);
 
         if (!file.exists()) {
@@ -68,9 +75,14 @@ public class Services
     public static void searchfile (String filename)
     {
 
+        String path = System.getProperty("user.dir");
+        File folder = new File(path);
+        String[] files = folder.list();
+
         Integer found = 0;
 
-        if (files.length > 0) {
+
+        if (files != null) {
 
             for (String file : files) {
                 if (file.equals(filename)) {
