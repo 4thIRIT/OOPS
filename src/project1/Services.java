@@ -3,6 +3,7 @@ package project1;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Arrays;
 
 public class Services
 
@@ -19,7 +20,7 @@ public class Services
 
         if (files != null)
         {
-
+            Arrays.sort(files);
             for (String file : files) {
 
                 File temp = new File(file);
