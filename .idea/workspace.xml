@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ab7b861-bebe-43c6-a2bc-d0066e3fc69e" name="Changes" comment="Tested and Included Exception handling.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project1/Services.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project1/Services.java" afterDir="false" />
-    </list>
+    <list default="true" id="1ab7b861-bebe-43c6-a2bc-d0066e3fc69e" name="Changes" comment="Added Sort functionality to list all files." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,12 +56,20 @@
       <option name="project" value="LOCAL" />
       <updated>1674691743230</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Sort functionality to list all files.">
+      <created>1675074087604</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675074087604</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Tested and Included Exception handling." />
-    <option name="LAST_COMMIT_MESSAGE" value="Tested and Included Exception handling." />
+    <MESSAGE value="Added Sort functionality to list all files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Sort functionality to list all files." />
   </component>
 </project>
